@@ -41,9 +41,6 @@ namespace TestingDemoqaWebPage
 
             IWebElement currentAdress = driver.FindElement(By.Id("currentAddress"));
             currentAdress.SendKeys("Spasenoviceva");
-
-            IWebElement button = driver.FindElement(By.Id("submit"));
-            button.Submit();
         }
 
         [TearDown]
